@@ -1,7 +1,7 @@
 FROM ubuntu:xenial
 MAINTAINER ldocky 
 
-VOLUME ["/config", "/complete", "/incomplete", "/blackhole"]
+VOLUME ["/config", "/complete", "/incomplete", "/blackhole", "/m"]
 
 ENV DEBIAN_FRONTEND=noninteractive
 
