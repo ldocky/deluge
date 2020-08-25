@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM ubuntu:focal
 MAINTAINER ldocky 
 
 VOLUME ["/config", "/complete", "/incomplete", "/blackhole", "/m"]
